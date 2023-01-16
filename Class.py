@@ -12,14 +12,6 @@ class Field:
         return f"{self.value}"
 
 
-def __str__(self):
-    return f"{self.value}"
-
-
-def __repr__(self):
-    return f"{self.value}"
-
-
 class Name(Field):
     def __init__(self, value):
         self.value = value.capitalize()
